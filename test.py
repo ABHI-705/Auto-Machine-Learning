@@ -35,7 +35,7 @@ if choice == "Profile":
 if choice == "Machine Learning": 
     target = st.selectbox("Choose the Target", df.columns)
     if st.button("Run Modelling"): 
-        setup(df, target=target, silent=True)
+        setup_df(target=target, silent=True)
         setup_df = pull()
         st.dataframe(setup_df)
         best_model = compare_models()
