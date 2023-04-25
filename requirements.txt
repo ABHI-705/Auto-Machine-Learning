@@ -33,6 +33,7 @@ GitPython==3.1.31
 htmlmin==0.1.12
 idna==3.4
 ImageHash==4.3.1
+pycaret==2.3.10
 imbalanced-learn==0.10.1
 importlib-metadata==6.6.0
 importlib-resources==5.12.0
@@ -81,7 +82,6 @@ protobuf==3.20.3
 psutil==5.9.5
 pure-eval==0.2.2
 pyarrow==11.0.0
-pycaret==3.0.0
 pydantic==1.10.7
 pydeck==0.8.1b0
 Pygments==2.15.1
